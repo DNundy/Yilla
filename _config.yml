@@ -9,7 +9,7 @@ subnav:
   weibo         : "http://weibo.com/Nundy"
   mail          : "mailto:18710939328@163.com"
   github        : "https://github.com/UniqueSirius"
-  wangyiyun     : "http://music.163.com/m/user/home?id=274111924"
+  wangyiyun     : "https://music.163.com/m/user/home?id=274111924"
   rss           : "/atom.xml"
   #qq           : "http://wpa.qq.com/msgrd?v=3&uin=3053915949&site=qq&menu=yes"
   #jianshu      : "http://www.jianshu.com/users/ba1556fea564/timeline"
@@ -84,7 +84,7 @@ smart_menu :
   friends         : 'Demo'
   aboutme         : '关于我'
 
-friends :
-  Test : http://localhost:4000/
+friends   :
+  Test    : http://localhost:4000/
 
-aboutme : 有时候<br/><br/>我多么希望能有一双睿智的眼睛能够看穿我<br/><br/>能够明白了解我的一切<br/><br/>包括所有的斑斓和荒芜<br/><br/><br/><br/>那双眼眸能够穿透我的最为本质的灵魂<br/><br/>直抵我心灵深处那个真实的自己<br/><br/>她的话语能解决我所有的迷惑<br/><br/>或是对我的所作所为能有一针见血的评价
+aboutme   : 如果有来生<br/><br/>要做一棵树<br/><br/>站成永恒<br/><br/>没有悲欢的姿势<br/><br/>一半在土里安详<br/><br/>一半在风里飞扬<br/><br/>一半洒落阴凉<br/><br/>一半沐浴阳光<br/><br/>非常沉默，非常骄傲<br/><br/>从不依靠，从不寻找<br/><br/>
