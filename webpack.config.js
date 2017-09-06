@@ -1,28 +1,26 @@
-var webpack = require("webpack");
-var autoprefixer = require('autoprefixer');
+var webpack           = require("webpack");
+var autoprefixer      = require('autoprefixer');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
-var CleanPlugin = require('clean-webpack-plugin');
-
-// 模板压缩
-// 详见：https://github.com/kangax/html-minifier#options-quick-reference
+var CleanPlugin       = require('clean-webpack-plugin');
 
 var minifyHTML = {
-  collapseInlineTagWhitespace: true,
-  collapseWhitespace: true,
-  minifyJS:true
+  collapseInlineTagWhitespace   : true,
+  collapseWhitespace            : true,
+  minifyJS                      : true
 }
 
 module.exports = {
-  entry: {
-    main: "./source-src/js/main.js",
-    slider: "./source-src/js/slider.js",
-    mobile: ["babel-polyfill", "./source-src/js/mobile.js"]
+  entry : {
+    main    : "./source-src/js/main.js",
+    slider  : "./source-src/js/slider.js",
+    mobile  : ["babel-polyfill", "./source-src/js/mobile.js"],
+    photo   : "./source-src/js/photo.js"
   },
   output: {
-    path: "./source",
-    publicPath: "./",
-    filename: "[name].[chunkhash:6].js"
+    path          : "./source",
+    publicPath    : "./",
+    filename      : "[name].js"
   },
   module: {
     loaders: [{
@@ -37,7 +35,7 @@ module.exports = {
       loader: ExtractTextPlugin.extract('style-loader', ['css-loader?-autoprefixer', 'postcss-loader', 'sass-loader'])
     }, {
       test: /\.(gif|jpg|png)\??.*$/,
-      loader: 'url-loader?limit=500&name=img/[name].[ext]'
+      loader: 'url-loader?limit=500&name=assets/img/[name].[ext]'
     }, {
       test: /\.(woff|svg|eot|ttf)\??.*$/,
       loader: "file-loader?name=fonts/[name].[hash:6].[ext]"
@@ -56,7 +54,7 @@ module.exports = {
     return [autoprefixer];
   },
   plugins: [
-    new ExtractTextPlugin('[name].[chunkhash:6].css'),
+    new ExtractTextPlugin('[name].css'),
     new webpack.DefinePlugin({
       'process.env.NODE_ENV': '"production"'
     }),

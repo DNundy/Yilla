@@ -21,8 +21,107 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* 
+  Nundy定义的图标
+  在阿里图标库自定义需要的字体图标
+  生成了字体文件
+  取得其中的Unicode编码值
+*/
 
-.icon-twitter:before { content: "\e600"; }
+.icon-film:before { content: "\e744"; }
+
+.icon-sort:before { content: "\e632"; }
+
+.icon-share:before { content: "\e61d"; }
+
+.icon-book:before { content: "\e619"; }
+
+.icon-linkedin:before { content: "\e724"; }
+
+.icon-search:before { content: "\e854"; }
+
+.icon-wangyiyun:before { content: "\e762"; }
+
+.icon-price-tags:before { content: "\e600"; }
+
+.icon-leftquote:before { content: "\e60f"; }
+
+.icon-category:before { content: "\e603"; }
+
+.icon-roundleftfill:before { content: "\e605"; }
+
+.icon-roundrightfill:before { content: "\e606"; }
+
+.icon-twitter:before { content: "\ecb3"; }
+
+.icon-calendar:before { content: "\e666"; }
+
+.icon-back:before { content: "\e618"; }
+
+.icon-rightquote:before { content: "\e82d"; }
+
+.icon-facebook:before { content: "\e649"; }
+
+.icon-weibo:before { content: "\e627"; }
+
+.icon-bilibili:before { content: "\e604"; }
+
+.icon-mail:before { content: "\ec8f"; }
+
+.icon-close:before { content: "\e63c"; }
+
+.icon-home:before { content: "\e6c8"; }
+
+.icon-rss:before { content: "\e7ea"; }
+
+.icon-douban:before { content: "\e657"; }
+
+.icon-tuding:before { content: "\e6e8"; }
+
+.icon-loading:before { content: "\e77f"; }
+
+.icon-jianshu:before { content: "\e616"; }
+
+.icon-zhihu:before { content: "\e61b"; }
+
+.icon-nickname:before { content: "\e61f"; }
+
+.icon-link:before { content: "\eda5"; }
+
+.icon-list:before { content: "\e632"; }
+
+.icon-clock:before { content: "\e608"; }
+
+.icon-tumblr:before { content: "\e631"; }
+
+.icon-psn:before { content: "\e60a"; }
+
+.icon-circle-left:before { content: "\e607"; }
+
+.icon-circle-right:before { content: "\e609"; }
+
+.icon-plane:before { content: "\e6fe"; }
+
+.icon-smile:before { content: "\e706"; }
+
+.icon-segmentfault:before { content: "\e601"; }
+
+.icon-qzone:before { content: "\e709"; }
+
+.icon-back1:before { content: "\e647"; }
+
+.icon-qq:before { content: "\e602"; }
+
+.icon-acfun:before { content: "\e68e"; }
+
+.icon-github:before { content: "\e824"; }
+
+.icon-google:before { content: "\e60b"; }
+
+.icon-weixin:before { content: "\e659"; }
+/* 
+litten 定义的图标
+.icon-twitter:before { content: "\e635;"; }
 
 .icon-facebook:before { content: "\e601"; }
 
@@ -108,4 +207,5 @@
 
 .icon-bilibili:before { content: "\e622"; }
 
-.icon-psn:before { content: "\e6c7"; }
+.icon-psn:before { content: "\e6c7"; } 
+*/

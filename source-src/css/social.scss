@@ -29,13 +29,20 @@
             }
         }
         a.weibo {
-            background: #aaaaff;
-            border:1px solid #aaaaff;
+            background: red;
+            border:1px solid red;
             &:hover {
-                border:1px solid #aaaaff;
+                border:1px solid red;
             }
         }
-        a.segmentfault {
+        a.wangyiyun {
+            background: #e15280;
+            border:1px solid #e15280;
+            &:hover {
+                border:1px solid #e15280;
+            }
+        }
+        a.iconsf-copy {
             background: #009a61;
             border:1px solid #009a61;
             &:hover {
@@ -50,10 +57,10 @@
             }
         }
         a.github {
-            background: #afb6ca;
-            border:1px solid #afb6ca;
+            background: black;
+            border:1px solid black;
             &:hover {
-                border:1px solid #909ab6;
+                border:1px solid black;
             }
         }
         a.facebook {
@@ -71,10 +78,10 @@
             }
         }
         a.twitter {
-            background: #55cff8;
-            border:1px solid #55cff8;
+            background: red;
+            border:1px solid red;
             &:hover {
-                border:1px solid #24c1f6;
+                border:1px solid red;
             }
         }
         a.linkedin {
@@ -84,28 +91,28 @@
                 border:1px solid #006b98;
             }
         }
-        a.acfun {
+        a.CN_acfuntv {
             background: #fd4c5d;
             border:1px solid #fd4c5d;
             &:hover {
                 border:1px solid #fd4c5d;
             }
         }
-        a.bilibili {
+        a.cnbilibilib {
             background: #e15280;
             border:1px solid #e15280;
             &:hover {
                 border:1px solid #e15280;
             }
         }
-        a.zhihu {
+        a.daoruzhihu {
             background: #0078d8;
             border:1px solid #0078d8;
             &:hover {
                 border:1px solid #0078d8;
             }
         }
-        a.douban {
+        a.douban-copy {
             background: #06c611;
             border:1px solid #06c611;
             &:hover {
@@ -148,4 +155,9 @@
             }
         }
     }
+}
+#header .header-music{
+    width: 100%;
+    position:absolute;
+    margin-top: 50px;
 }
