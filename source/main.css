@@ -806,7 +806,7 @@ html, body, #container {
     .left-col #header .profilepic {
       text-align: center;
       display: block;
-      border: 5px solid #fff;
+      border: 0px solid #fff;
       border-radius: 300px;
       width: 128px;
       height: 128px;
@@ -2736,7 +2736,7 @@ pre .css ~ * .id {
   .profilepic {
     text-align: center;
     display: block;
-    border: 5px solid #fff;
+    border: 0px solid #fff;
     border-radius: 300px;
     width: 128px;
     height: 128px;
