@@ -49,8 +49,8 @@
 	/*
 	* @Author: Administrator
 	* @Date:   2017-08-15 15:50:25
-	* @Last Modified by:   Administrator
-	* @Last Modified time: 2017-08-21 10:28:23
+	 * @Last Modified by: mikey.zhaopeng
+	 * @Last Modified time: 2017-10-26 16:04:50
 	*/
 	function render(data) {
 	    var liTemp = '';
@@ -62,7 +62,7 @@
 	        }
 	        ulTemp += '<section class="archives album"><h1 class="year">' + data[i].date + '</h1><ul class="img-box-ul">' + liTemp + '</ul></section>';
 	    }
-	    document.querySelector('.instagram').innerHTML = '<div class="photos">' + ulTemp + '</div>';
+	    document.querySelector('.instagram').innerHTML = '<div class="photos">' + ulTemp + '</div>' + '<p>呀，已经到底了！</p>';
 	}
 	function errSet() {
 	    setTimeout(function () {
