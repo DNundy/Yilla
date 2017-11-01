@@ -2432,12 +2432,16 @@ pre .css ~ * .id {
   list-style: none;
   display: inline-block;
   box-sizing: border-box;
-  padding: 0 5px;
-  margin-bottom: -10px;
-  height: 0;
-  width: 25%;
   position: relative;
-  padding-bottom: 25%; }
+  text-align: center;
+  vertical-align: middle;
+  height: 250px;
+  width: auto;
+  margin: 20px 20px; }
+
+.instagram .album li img {
+  height: 100%;
+  width: auto; }
 
 .instagram .album li:before {
   display: none; }
@@ -2448,9 +2452,13 @@ pre .css ~ * .id {
 @media screen and (max-width: 600px) {
   .instagram .album li {
     width: 100%;
+    height: auto;
     position: relative;
-    padding-bottom: 100%;
-    text-align: center; } }
+    text-align: center;
+    margin: 20px 10px; }
+  .instagram .album li img {
+    width: 100%;
+    height: auto; } }
 
 @media screen and (max-width: 800px) {
   html, body, #container {
